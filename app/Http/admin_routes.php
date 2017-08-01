@@ -72,4 +72,12 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== News ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/news', 'LA\NewsController');
 	Route::get(config('laraadmin.adminRoute') . '/news_dt_ajax', 'LA\NewsController@dtajax');
+
+	/* ================== Tops ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/tops', 'LA\TopsController');
+	Route::get(config('laraadmin.adminRoute') . '/top_dt_ajax', 'LA\TopsController@dtajax');
+
+	/* ================== MenuMains ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/menumains', 'LA\MenuMainsController');
+	Route::get(config('laraadmin.adminRoute') . '/menumain_dt_ajax', 'LA\MenuMainsController@dtajax');
 });

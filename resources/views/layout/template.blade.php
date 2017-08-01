@@ -45,8 +45,8 @@
                     <div class="row">
                         <div id="header_logo">
                             <h1>
-                                <a href="/" title="{{ LAConfigs::getByKey('sitename') }}">
-                                    {{ LAConfigs::getByKey('sitename') }}
+                                <a href="/" title="ГЕНЗАР">
+                                    ГЕНЗАР
                                     {{--<img class="logo img-responsive" src="./img/new-store-logo-1457701171.jpg"
                                  alt="Spare Parts" width="282" height="48">--}}
                                 </a>
