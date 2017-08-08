@@ -62,6 +62,7 @@
 					@la_input($module, 'menu_title')
 					@la_input($module, 'slug')
 					@la_input($module, 'sort_menu')
+					@la_input($module, 'parent')
 					--}}
 				</div>
 			</div>

@@ -21,6 +21,7 @@ class CreateMenumainsTable extends Migration
             ["menu_title", "Название", "Name", false, "", 0, 256, true],
             ["slug", "Ссылка", "String", false, "", 0, 256, true],
             ["sort_menu", "Сортировка", "Address", false, "", 1, 1000, false],
+            ["parent", "Родительский пункт", "Integer", false, "0", 0, 11, true],
         ]);
 		
 		/*

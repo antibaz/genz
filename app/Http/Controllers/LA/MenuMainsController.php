@@ -23,7 +23,7 @@ class MenuMainsController extends Controller
 {
 	public $show_action = true;
 	public $view_col = 'menu_title';
-	public $listing_cols = ['id', 'menu_title', 'slug', 'sort_menu'];
+	public $listing_cols = ['id', 'menu_title', 'slug', 'sort_menu', 'parent'];
 	
 	public function __construct() {
 		// Field Access of Listing Columns

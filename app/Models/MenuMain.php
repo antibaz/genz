@@ -19,6 +19,7 @@ class MenuMain extends Model
         
     ];
 
+
 	protected $guarded = [];
 
 	protected $dates = ['deleted_at'];

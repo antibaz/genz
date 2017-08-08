@@ -110,6 +110,7 @@
 						@la_display($module, 'menu_title')
 						@la_display($module, 'slug')
 						@la_display($module, 'sort_menu')
+						@la_display($module, 'parent')
 					</div>
 				</div>
 			</div>
