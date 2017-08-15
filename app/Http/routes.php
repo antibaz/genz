@@ -22,4 +22,5 @@ require __DIR__.'/admin_routes.php';
 
 
 /* ================== Articles Routes ================== */
-Route::get('/{slug}/{slug2?}', 'NewsControl@index');
+Route::get('/{slug}/{slug2?}', 'ArticleController@index');
+Route::get('/новости/{slug2?}', 'NewsController@index');

@@ -8,23 +8,21 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\News;
-use Psy\Exception\ThrowUpException;
+use App\Models\Article;
 
 
-class NewsControl extends Controller
+class ArticleController extends Controller
 {
     public function index($slug, $slug2 = null)
     {
-
-        $issetNews = News::where('url_link', $slug)->first();
+        $issetNews = Article::where('link', $slug)->first();
         dump($issetNews);
         if($issetNews)
         {
             return view('news.detail', [
-                'Description' => $issetNews->Description,
-                'Title' => $issetNews->Title,
-                'Image' => $issetNews->Image,
+                'Description' => $issetNews->text,
+                'Title' => $issetNews->name,
+                'Image' => $issetNews->image,
             ]);
         }
         else

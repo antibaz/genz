@@ -7,5 +7,7 @@
 ?>
 @extends('layout.template')
 @section('content')
-
+    @include('slider.main')
+    <div class="columns-container">
+    </div>
 @endsection

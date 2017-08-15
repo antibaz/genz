@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="/css/front.css" media="all">
     <link rel="stylesheet" href="/css/tmmegalayout.css" media="all">
     <link rel="stylesheet" href="/css/rd-parallax.css" media="all">
+    <link rel="stylesheet" href="/css/swiper.min.css" media="all">
 
     <script src="./js/jquery-1.11.0.min.js"></script>
     <script src="./js/tmmegamenu.js"></script>
@@ -46,6 +47,7 @@
     <script src="./js/14-device.min.js"></script>
     <script src="./js/superfish.js"></script>
     <script src="./js/js"></script>
+    <script src="./js/swiper.min.js"></script>
     
 </head>
 <body id="index" class="index hide-left-column hide-right-column lang_ru  one-column">
@@ -78,163 +80,13 @@
             </div>
         </header>
     </div>
-    <div class="columns-container">
-        @yield('content')
-    </div>
+
+    @yield('content')
+
     <!-- .columns-container -->
     <div class="footer-container">
         <div id="footer">
-            <div class="wrapper it_MKBZTLOVHKEO container">
-                <div class="row it_ETDRIAJQDVCC ">
-                    <div class="it_RENTMAJTOQUK col-xs-12 col-sm-12 col-md-12 col-lg-12 smartblog_bxslider">
-                        <section id="homepage-blog" class="block footer-block">
-                            <h4 class="title_block"><a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;controller=category&amp;id_lang=3">Новости</a></h4>
-                            <div class="block_content">
-                                <div class="bx-wrapper" style="max-width: 1170px; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 358px;"><ul class="row" id="smartblog_bxslider" style="width: 715%; position: relative; transition-duration: 0s; transform: translate3d(-1200px, 0px, 0px);"><li class="col-xs-4 col-md-4 last-in-line last-item-of-tablet-line last-item-of-mobile-line bx-clone" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=4&amp;slug=&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Establishing Your Brand on College Campuses" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/4-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=4&amp;slug=&amp;controller=details&amp;id_lang=3">Establishing Your Brand on College Campuses</a></h5>
-                                                <p class="post-descr">
-                                                    Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research reveals that 20 million students in the US have a combined disposable income of $417 billion. Moreover, another survey of students' parents reveals that students now make 70 percent of their purchases themselves. These purchases are often made on credit cards. Therefore, students often have a significantly higher purchasing power.
-                                                </p>
-                                            </li><li class="col-xs-4 col-md-4 first-in-line last-line first-item-of-tablet-line first-item-of-mobile-line last-mobile-line bx-clone" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=3&amp;slug=&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Impact - The Heart of Business" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/3-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=3&amp;slug=&amp;controller=details&amp;id_lang=3">Impact - The Heart of Business</a></h5>
-                                                <p class="post-descr">
-                                                    Thousands of people dream of having their own business and even more so be a successful entrepreneur. But what does it take to achieve success in the business industry?
-                                                </p>
-                                            </li><li class="col-xs-4 col-md-4 last-line last-mobile-line bx-clone" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=2&amp;slug=cras-in-sem-in-arcu-ultrices&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Beautiful Rumi Quotes that are Worth Reading" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/2-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=2&amp;slug=cras-in-sem-in-arcu-ultrices&amp;controller=details&amp;id_lang=3">Beautiful Rumi Quotes that are Worth Reading</a></h5>
-                                                <p class="post-descr">
-                                                    Rumi, is the most popular Sufi poet in the world. His work is not only deep and intense, but also very ethereal. His poetry often stirs an emotion never touched and shows a facet never seen. This Buzzle article has a collection of some beautiful Rumi quotes that are worth reading, without which, life would literally feel quite disregarded.
-                                                </p>
-                                            </li>
 
-
-
-                                            <li class="col-xs-4 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=6&amp;slug=Impact---The-Heart-of-Business&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Impact - The Heart of Business" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/6-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=6&amp;slug=Impact---The-Heart-of-Business&amp;controller=details&amp;id_lang=3">Impact - The Heart of Business</a></h5>
-                                                <p class="post-descr">
-                                                    Thousands of people dream of having their own business and even more so be a successful entrepreneur. But what does it take to achieve success in the business industry?
-                                                </p>
-                                            </li>
-
-
-
-                                            <li class="col-xs-4 col-md-4" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=5&amp;slug=Establishing-Your-Brand-on-College-Campuses&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Establishing Your Brand on College Campuses" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/5-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=5&amp;slug=Establishing-Your-Brand-on-College-Campuses&amp;controller=details&amp;id_lang=3">Establishing Your Brand on College Campuses</a></h5>
-                                                <p class="post-descr">
-                                                    Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research reveals that 20 million students in the US have a combined disposable income of $417 billion. Moreover, another survey of students' parents reveals that students now make 70 percent of their purchases themselves. These purchases are often made on credit cards. Therefore, students often have a significantly higher purchasing power.
-                                                </p>
-                                            </li>
-
-
-
-                                            <li class="col-xs-4 col-md-4 last-in-line last-item-of-tablet-line last-item-of-mobile-line" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=4&amp;slug=&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Establishing Your Brand on College Campuses" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/4-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=4&amp;slug=&amp;controller=details&amp;id_lang=3">Establishing Your Brand on College Campuses</a></h5>
-                                                <p class="post-descr">
-                                                    Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research reveals that 20 million students in the US have a combined disposable income of $417 billion. Moreover, another survey of students' parents reveals that students now make 70 percent of their purchases themselves. These purchases are often made on credit cards. Therefore, students often have a significantly higher purchasing power.
-                                                </p>
-                                            </li>
-
-
-
-                                            <li class="col-xs-4 col-md-4 first-in-line last-line first-item-of-tablet-line first-item-of-mobile-line last-mobile-line" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=3&amp;slug=&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Impact - The Heart of Business" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/3-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=3&amp;slug=&amp;controller=details&amp;id_lang=3">Impact - The Heart of Business</a></h5>
-                                                <p class="post-descr">
-                                                    Thousands of people dream of having their own business and even more so be a successful entrepreneur. But what does it take to achieve success in the business industry?
-                                                </p>
-                                            </li>
-
-
-
-                                            <li class="col-xs-4 col-md-4 last-line last-mobile-line" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=2&amp;slug=cras-in-sem-in-arcu-ultrices&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Beautiful Rumi Quotes that are Worth Reading" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/2-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=2&amp;slug=cras-in-sem-in-arcu-ultrices&amp;controller=details&amp;id_lang=3">Beautiful Rumi Quotes that are Worth Reading</a></h5>
-                                                <p class="post-descr">
-                                                    Rumi, is the most popular Sufi poet in the world. His work is not only deep and intense, but also very ethereal. His poetry often stirs an emotion never touched and shows a facet never seen. This Buzzle article has a collection of some beautiful Rumi quotes that are worth reading, without which, life would literally feel quite disregarded.
-                                                </p>
-                                            </li>
-                                            <li class="col-xs-4 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line bx-clone" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=6&amp;slug=Impact---The-Heart-of-Business&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Impact - The Heart of Business" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/6-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=6&amp;slug=Impact---The-Heart-of-Business&amp;controller=details&amp;id_lang=3">Impact - The Heart of Business</a></h5>
-                                                <p class="post-descr">
-                                                    Thousands of people dream of having their own business and even more so be a successful entrepreneur. But what does it take to achieve success in the business industry?
-                                                </p>
-                                            </li><li class="col-xs-4 col-md-4 bx-clone" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=5&amp;slug=Establishing-Your-Brand-on-College-Campuses&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Establishing Your Brand on College Campuses" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/5-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=5&amp;slug=Establishing-Your-Brand-on-College-Campuses&amp;controller=details&amp;id_lang=3">Establishing Your Brand on College Campuses</a></h5>
-                                                <p class="post-descr">
-                                                    Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research reveals that 20 million students in the US have a combined disposable income of $417 billion. Moreover, another survey of students' parents reveals that students now make 70 percent of their purchases themselves. These purchases are often made on credit cards. Therefore, students often have a significantly higher purchasing power.
-                                                </p>
-                                            </li><li class="col-xs-4 col-md-4 last-in-line last-item-of-tablet-line last-item-of-mobile-line bx-clone" style="float: left; list-style: none; position: relative; margin-right: 30px; width: 370px;">
-                                                <div class="blog-image">
-                                                    <a href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=4&amp;slug=&amp;controller=details&amp;id_lang=3">
-                                                        <img alt="Establishing Your Brand on College Campuses" class="img-responsive" src="/prestashop_58410/modules/smartblog/images/4-home-default.jpg">
-                                                    </a>
-                                                </div>
-                                                <p class="date-added">August  1, 2017</p>
-                                                <h5><a class="product-name" href="https://ld-prestashop.template-help.com/prestashop_58410/index.php?fc=module&amp;module=smartblog&amp;id_post=4&amp;slug=&amp;controller=details&amp;id_lang=3">Establishing Your Brand on College Campuses</a></h5>
-                                                <p class="post-descr">
-                                                    Many students are cash-strapped, nowadays. Nevertheless, their purchasing power is very high. Research reveals that 20 million students in the US have a combined disposable income of $417 billion. Moreover, another survey of students' parents reveals that students now make 70 percent of their purchases themselves. These purchases are often made on credit cards. Therefore, students often have a significantly higher purchasing power.
-                                                </p>
-                                            </li></ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href=""></a><a class="bx-next" href=""></a></div></div></div>
-                            </div>
-                        </section></div></div></div>
             <div class="wrapper it_VWJIJSIICGMY store">
                 <div class="row it_PJWQQKESTKXU ">
                     <div class="it_DQRHHQJCKEMO col-xs-12 col-sm-12 col-md-12 col-lg-12 map"><div id="homegooglemap" class="clearfix">
@@ -374,16 +226,7 @@
                         </section>
                         <!-- /Block myaccount module --></div>
                     <div class="it_MMJDUVZQBVZM col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
-                        <div class="socialfeedblock block footer footer-block">
-                            <div class="row hook_footer">
-                                <div class="item_1 col-xs-12">
-                                    <div class="facebook-socialfeed">
-                                        <script type="text/javascript" src="/prestashop_58410/modules/tmsocialfeeds/views/js/facebook.js"></script>
-                                        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/TemplateMonster" data-tabs="timeline" data-width="370" data-height="360" data-small-header="true" data-adapt-container-width="true" data-show-facepile="true" data-hide-cover="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=370&amp;height=360&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FTemplateMonster&amp;locale=ru_RU&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=370"><span style="vertical-align: bottom; width: 370px; height: 360px;"><iframe name="f22da110643325c" width="370px" height="360px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="https://web.facebook.com/v2.4/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FXBwzv5Yrm_1.js%3Fversion%3D42%23cb%3Df34ea009ac9c724%26domain%3Dld-prestashop.template-help.com%26origin%3Dhttps%253A%252F%252Fld-prestashop.template-help.com%252Ff2d588f93196f98%26relation%3Dparent.parent&amp;container_width=370&amp;height=360&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FTemplateMonster&amp;locale=ru_RU&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=370" style="border: none; visibility: visible; width: 370px; height: 360px;" class=""></iframe></span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div></div></div>
             <div class="wrapper it_ZYGZFMUWXUDC container all-modules1">
                 <div class="row it_EWPQTQNBCHWG ">

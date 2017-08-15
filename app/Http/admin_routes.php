@@ -80,4 +80,12 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== MenuMains ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/menumains', 'LA\MenuMainsController');
 	Route::get(config('laraadmin.adminRoute') . '/menumain_dt_ajax', 'LA\MenuMainsController@dtajax');
+
+	/* ================== Articles ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/articles', 'LA\ArticlesController');
+	Route::get(config('laraadmin.adminRoute') . '/article_dt_ajax', 'LA\ArticlesController@dtajax');
+
+	/* ================== MainSliders ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/mainsliders', 'LA\MainSlidersController');
+	Route::get(config('laraadmin.adminRoute') . '/mainslider_dt_ajax', 'LA\MainSlidersController@dtajax');
 });
