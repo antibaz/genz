@@ -16,17 +16,14 @@ class ArticleController extends Controller
     public function index($slug, $slug2 = null)
     {
         $issetNews = Article::where('link', $slug)->first();
-        dump($issetNews);
-        if($issetNews)
-        {
+        //dump($issetNews);
+        if ($issetNews) {
             return view('news.detail', [
                 'Description' => $issetNews->text,
                 'Title' => $issetNews->name,
                 'Image' => $issetNews->image,
             ]);
-        }
-        else
-        {
+        } else {
             abort(404);
         }
 
