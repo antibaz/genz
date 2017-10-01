@@ -1116,16 +1116,16 @@
         },
         {
             "name": "league/fractal",
-            "version": "0.16.0",
+            "version": "0.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/fractal.git",
-                "reference": "d0445305e308d9207430680acfd580557b679ddc"
+                "reference": "a0b350824f22fc2fdde2500ce9d6851a3f275b0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/d0445305e308d9207430680acfd580557b679ddc",
-                "reference": "d0445305e308d9207430680acfd580557b679ddc",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/a0b350824f22fc2fdde2500ce9d6851a3f275b0e",
+                "reference": "a0b350824f22fc2fdde2500ce9d6851a3f275b0e",
                 "shasum": ""
             },
             "require": {
@@ -1176,20 +1176,20 @@
                 "league",
                 "rest"
             ],
-            "time": "2017-03-12 01:28:43"
+            "time": "2017-06-12 11:04:56"
         },
         {
             "name": "maatwebsite/excel",
-            "version": "2.1.22",
+            "version": "2.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
-                "reference": "bb7b3d9a72f56ddab974e6a629e4f5e51cd945a2"
+                "reference": "8682c955601b6de15a8c7d6e373b927cc8380627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/bb7b3d9a72f56ddab974e6a629e4f5e51cd945a2",
-                "reference": "bb7b3d9a72f56ddab974e6a629e4f5e51cd945a2",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/8682c955601b6de15a8c7d6e373b927cc8380627",
+                "reference": "8682c955601b6de15a8c7d6e373b927cc8380627",
                 "shasum": ""
             },
             "require": {
@@ -1254,7 +1254,7 @@
                 "import",
                 "laravel"
             ],
-            "time": "2017-08-31 14:52:24"
+            "time": "2017-09-19 19:36:48"
         },
         {
             "name": "monolog/monolog",
@@ -2807,16 +2807,16 @@
         },
         {
             "name": "yajra/laravel-datatables-oracle",
-            "version": "v6.29.0",
+            "version": "v6.29.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yajra/laravel-datatables.git",
-                "reference": "74d9e69fc3ec717fe558900f9785da0976d6d8df"
+                "reference": "651422e982a2021a487520c5e23497b77182342f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/74d9e69fc3ec717fe558900f9785da0976d6d8df",
-                "reference": "74d9e69fc3ec717fe558900f9785da0976d6d8df",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/651422e982a2021a487520c5e23497b77182342f",
+                "reference": "651422e982a2021a487520c5e23497b77182342f",
                 "shasum": ""
             },
             "require": {
@@ -2867,7 +2867,7 @@
                 "laravel4",
                 "laravel5"
             ],
-            "time": "2017-06-07 05:24:00"
+            "time": "2017-09-26 01:09:08"
         },
         {
             "name": "zizaco/entrust",

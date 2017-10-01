@@ -36,16 +36,14 @@
     <link rel="stylesheet" href="/css/hooks.css" media="all">
     <link rel="stylesheet" href="/css/blockwishlist.css" media="all">
     <link rel="stylesheet" href="/css/productcomments.css" media="all">
-    <link rel="stylesheet" href="/css/smartblogstyle.css" media="all">
-    <link rel="stylesheet" href="/css/smartbloglatestnews.css" media="all">
-    <link rel="stylesheet" href="/css/smartblogtags.css" media="all">
     <link rel="stylesheet" href="/css/tmmegamenu.css" media="all">
     <link rel="stylesheet" href="/css/front.css" media="all">
     <link rel="stylesheet" href="/css/tmmegalayout.css" media="all">
-    <link rel="stylesheet" href="/css/rd-parallax.css" media="all">
     <link rel="stylesheet" href="/css/swiper.min.css" media="all">
     <link rel="stylesheet" href="/css/jquery.bxslider.min.css" media="all">
-    <link rel="stylesheet" href="/css/fakeLoader.css" media="all">
+    <link rel="stylesheet" href="/css/remodal.css" media="all">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css" media="all">
+    {{--<link rel="stylesheet" href="/css/fakeLoader.css" media="all">--}}
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./js/tmmegamenu.js"></script>
@@ -59,7 +57,8 @@
     {{-- <script src="./js/js"></script>--}}
     <script src="./js/swiper.min.js"></script>
     <script src="./js/jquery.bxslider.min.js"></script>
-    <script src="./js/fakeLoader.min.js"></script>
+    <script src="./js/remodal.min.js"></script>
+    {{--<script src="./js/fakeLoader.min.js"></script>--}}
 
 </head>
 <body id="index" class="index hide-left-column hide-right-column lang_ru  one-column">
@@ -67,7 +66,7 @@
 <div id="page">
     <div class="header-container">
         <header id="header">
-            <div id="header-element"></div>
+           {{-- <div id="header-element"></div>--}}
             <div class="nav">
                 <div class="container">
                     <div class="row">
@@ -98,8 +97,16 @@
 <!-- .columns-container -->
     <div class="footer-container">
         <div id="footer">
-
-
+            <div class="remodal" data-remodal-id="modal">
+                <button data-remodal-action="close" class="remodal-close"></button>
+                <h1>Связаться с нами</h1>
+                <p>
+                    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+                </p>
+                <br>
+                <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+                <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+            </div>
         </div>
     </div>
     {{--<div class="bottom-footer">

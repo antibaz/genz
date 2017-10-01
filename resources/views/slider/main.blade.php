@@ -47,10 +47,9 @@
         <div class="swiper-wrapper">
             @foreach(\App\Models\MainSlider::all()->sortBy('sort')->reverse() as $slide)
                 @php
-                    $image =  \App\Models\Upload::query()->find($slide->image, ['name', 'hash']);
-                    $img_url = sprintf('/files/%s/%s', $image->hash, $image->name);
+                    $image =  App\Models\Upload::find($slide->image);
                 @endphp
-                <div class="swiper-slide"><img src="{{ $img_url }}"/></div>
+                <div class="swiper-slide"><img src="{{ $image->path() }}"/></div>
             @endforeach
         </div>
         <!-- Add Pagination -->
@@ -62,82 +61,6 @@
 
 </div>
 
-<div class="rd-parallax-layer">
-    <div class="wrapper container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 textMain">
-                <div class="item-html">
-                    <h4>Автосервис Гензар</h4>
-                    <p>Наш адрес — Автосервис на Горького в Калининграде это молодая команда профессионалов. Услуги
-                        компании Автосервис ГЕНЗАР Калининград не ограничиваются только автосервисом — у нас имеется
-                        также большая крытая автостоянка, шиномонтаж. Автосервис Калининград — это место где вам окажут
-                        любые услуги по обслуживанию вашего автомобиля. А именно: диагностика, ремонт двигателей, замена
-                        и продажа масла, ремонт ходовой части, послегарантийное техническое обслуживание, сварочные
-                        работы.</p>
-                </div>
-
-                <div class="item-html">
-                    <h4>Автостоянка</h4>
-                    <p>На нашей автостоянке Вы можете не беспокоиться о сохранности Вашего автомобиля, Ваш железный конь
-                        день и ночь находится под наблюдением охранников и видео регистрации. Также в качестве усиления
-                        защиты Вашего имущества стоянка оборудована электронным шлагбаумом и железными воротами. Въезд и
-                        выезд осуществляется посредством индивидуальной электронной карты. Вся территория стоянки
-                        обнесена бетонным глухим забором.</p>
-                </div>
-            </div>
-
-
-            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 contact-inner" ><!-- MODULE Block contact infos -->
-                <div id="newsletter_block_left" class="block">
-                    <h4>Свяжитесь с нами</h4>
-                    <div class="block_content">
-                        <section id="block_contact_infos" class="footer-block">
-                            <div>
-
-                                <ul>
-                                    <li>
-                                        <i class="fa fa-map-marker"></i>
-                                        4578 Marmora Road,
-                                        Glasgow D04 89GR
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-mobile"></i>
-                                        <span>
-            <a href="tel:1-800-1234-567">
-              1-800-1234-567
-            </a>
-          </span>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-envelope-o"></i>
-                                        <span><a href="mailto:%69%6e%66%6f@%64%65%6d%6f%6c%69%6e%6b.%6f%72%67">info@demolink.org</a></span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="wrapper container">
-    <ul class="bxslider">
-        @foreach(\App\Models\MainSlider::all()->sortBy('sort')->reverse() as $slide)
-            @php
-                $image =  \App\Models\Upload::query()->find($slide->image, ['name', 'hash']);
-                $img_url = sprintf('/files/%s/%s', $image->hash, $image->name);
-            @endphp
-            <li>
-
-            </li>
-        @endforeach
-    </ul>
-
-</div>
 
 
 <!-- Initialize Swiper -->
@@ -170,4 +93,6 @@
         infiniteLoop: true,
         pager: false,
     });
+
+    //myMap.behaviors.disable('scrollZoom');
 </script>

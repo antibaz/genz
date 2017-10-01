@@ -178,6 +178,7 @@ class UploadsController extends Controller
 					// Get public preferences
 					// config("laraadmin.uploads.default_public")
 					$public = Input::get('public');
+
 					if(isset($public)) {
 						$public = true;
 					} else {
@@ -371,7 +372,8 @@ class UploadsController extends Controller
     {
 		if(Module::hasAccess("Uploads", "edit")) {
 			$file_id = Input::get('file_id');
-			$public = Input::get('public');
+			$public = Input::get('public_new');
+
 			if(isset($public)) {
 				$public = true;
 			} else {

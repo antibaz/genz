@@ -4,7 +4,6 @@
  * Help: http://laraadmin.com
  */
 
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 use Dwij\Laraadmin\Models\Module;
@@ -25,7 +24,7 @@ class CreateUploadsTable extends Migration
             ["caption", "Caption", "String", false, "", 0, 250, false],
             ["user_id", "Owner", "Dropdown", false, "1", 0, 0, false, "@users"],
             ["hash", "Hash", "String", false, "", 0, 250, false],
-            ["public", "Is Public", "Checkbox", false, "0", 0, 0, false],
+            ["public", "Is Public", "Checkbox", false, "1", 0, 0, false],
         ]);
 		
 		/*

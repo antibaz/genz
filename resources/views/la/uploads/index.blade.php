@@ -75,7 +75,7 @@
                                 @if(!config('laraadmin.uploads.private_uploads'))
                                     <div class="form-group">
                                         <label for="public">Is Public ?</label>
-                                        {{ Form::checkbox("public", "public", false, []) }}
+                                        {{ Form::checkbox("public_new", 1, false, []) }}
                                         <div class="Switch Ajax Round On" style="vertical-align:top;margin-left:10px;"><div class="Toggle"></div></div>
                                     </div>
                                 @endif
