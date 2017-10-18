@@ -88,4 +88,8 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== MainSliders ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/mainsliders', 'LA\MainSlidersController');
 	Route::get(config('laraadmin.adminRoute') . '/mainslider_dt_ajax', 'LA\MainSlidersController@dtajax');
+
+	/* ================== Modals ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/modals', 'LA\ModalsController');
+	Route::get(config('laraadmin.adminRoute') . '/modal_dt_ajax', 'LA\ModalsController@dtajax');
 });

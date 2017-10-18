@@ -20,7 +20,10 @@ Route::get('/', function () {
 
 require __DIR__.'/admin_routes.php';
 
+/* ================== Modal Routes ================== */
+Route::get('/modal/', 'ModalController@index');
 
 /* ================== Articles Routes ================== */
 Route::get('/{slug}/{slug2?}', 'ArticleController@index');
 Route::get('/новости/{slug2?}', 'NewsController@index');
+

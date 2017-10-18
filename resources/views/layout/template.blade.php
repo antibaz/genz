@@ -45,7 +45,8 @@
     <link rel="stylesheet" href="/css/remodal-default-theme.css" media="all">
     {{--<link rel="stylesheet" href="/css/fakeLoader.css" media="all">--}}
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    {{--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>--}}
+    <script src="./js/jquery-1.11.0.min.js"></script>
     <script src="./js/tmmegamenu.js"></script>
     {{--<script src="./js/jquery-migrate-1.2.1.min.js"></script>--}}
     <script src="./js/jquery.easing.js"></script>
@@ -66,7 +67,7 @@
 <div id="page">
     <div class="header-container">
         <header id="header">
-           {{-- <div id="header-element"></div>--}}
+            {{-- <div id="header-element"></div>--}}
             <div class="nav">
                 <div class="container">
                     <div class="row">
@@ -99,13 +100,51 @@
         <div id="footer">
             <div class="remodal" data-remodal-id="modal">
                 <button data-remodal-action="close" class="remodal-close"></button>
-                <h1>Связаться с нами</h1>
-                <p>
-                    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
-                </p>
-                <br>
-                <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-                <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true"></span></button>
+                        <h4 class="modal-title" id="myModalLabel">Запись на ремонт</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="repairs-form-result">
+                            <form action="/" method="post" id="my-repairs-form" accept-charset="UTF-8">
+                                <div>
+                                    <div class="phone-mail-row clearfix">
+                                        <div class="form-item form-item-name form-type-textfield form-group"><label
+                                                    class="control-label" for="edit-name--2">Ваше имя <span
+                                                        class="form-required"
+                                                        title="Это поле обязательно для заполнения.">*</span></label>
+                                            <input class="form-control form-text" required type="text" id="edit-name--2"
+                                                   name="name" value="" size="60" maxlength="128"></div>
+                                        <div class="form-item form-item-phone form-type-textfield form-group"><label
+                                                    class="control-label" for="edit-phone--2">Телефон <span
+                                                        class="form-required"
+                                                        title="Это поле обязательно для заполнения.">*</span></label>
+                                            <input placeholder="+7 (___) ___-__-__" class="form-control form-text "
+                                                   type="text" id="edit-phone--2" required name="phone" value="" size="60"
+                                                   maxlength="128"></div>
+                                    </div>
+                                    <div class="form-item form-item-comment form-type-textarea form-group"><label
+                                                class="control-label" for="edit-comment--2">Причина обращения, поломка,
+                                            вопрос <span class="form-required"
+                                                         title="Это поле обязательно для заполнения.">*</span></label>
+                                        <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                                            <textarea class="form-control form-textarea" required id="edit-comment--2"
+                                                      name="comment" cols="60" rows="5"></textarea>
+                                            <div class="grippie"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                   {{-- <div class="modal-success">
+                        <h1 class="modal-title" id="myModalLabel">Спасибо, мы свяжемся с Вами в ближайшее врямя.</h1>
+                    </div>--}}
+                </div>
+                <button data-remodal-action="cancel" class="remodal-cancel">Закрыть</button>
+                <button class="remodal-confirm">Отправить</button>
             </div>
         </div>
     </div>
@@ -125,6 +164,28 @@
         spinner:"spinner5"
     });*/
 
+    var inst = $('[data-remodal-id=modal]').remodal();
+
+    $('.remodal-confirm').on('click', function (e) {
+
+        var url = "/modal/";
+        $.ajax({
+            type: "GET",
+            url: url,
+            data: $('#my-repairs-form').serialize(), // serializes the form's elements.
+            success: function (data) {
+                if (data) {
+                    alert(data);
+                    //inst.open();
+                }
+                else {
+
+                    //$('#my-repairs-form')[0].reset();
+                    inst.close();
+                }
+            }
+        });
+    })
 </script>
 </body>
 </html>

@@ -13092,12 +13092,30 @@ ul.content{
     background: black;
     color: white;
 }
+
+#block_contact_infos{
+    padding:0 40px;
+}
+
 #block_contact_infos a{
     color: #fff;
 }
 
 #block_contact_infos li{
     margin: 10px 0;
+}
+
+.phone-mail-row .form-item-name, .phone-mail-row .form-item-model {
+    width: 53%;
+    float: left;
+}
+.phone-mail-row .form-item-phone, .phone-mail-row .form-item-email {
+    width: 40%;
+    float: right;
+}
+
+#repairs-form-result{
+    color: #000;
 }
 
 @media only screen and (max-width: 767px) {
