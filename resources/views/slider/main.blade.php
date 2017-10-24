@@ -89,9 +89,10 @@
         minSlides: 6,
         maxSlides: 6,
         moveSlides: 1,
-        slideWidth: 500,
+        slideWidth: true,
+        responsive: true,
         infiniteLoop: true,
-        pager: false,
+        pager: false
     });
 
     //myMap.behaviors.disable('scrollZoom');

@@ -17,7 +17,7 @@ class ArticleController extends Controller
         $issetNews = Article::where('link', $slug)->first();
         //dump($issetNews);
         if ($issetNews) {
-            return view('news.detail', [
+            return view('articles.detail', [
                 'Description' => $issetNews->text,
                 'Title' => $issetNews->name,
                 'Image' => $issetNews->image,

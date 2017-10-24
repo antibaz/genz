@@ -8798,7 +8798,7 @@ header #header-element:before {
 }
 
 .footer-container #footer {
-    padding-bottom: 29px;
+    padding-bottom: 20px;
 }
 
 .footer-container #footer a {
@@ -13118,6 +13118,11 @@ ul.content{
     color: #000;
 }
 
+#footer{
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+}
+
 @media only screen and (max-width: 767px) {
     ul.content{
         position: relative;
@@ -13136,5 +13141,22 @@ ul.content{
 
     .textMain .item-html:nth-child(2){
         display: none;
+    }
+
+    .item-html, .footer-block{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contact-inner.col-xs-5{
+        width: auto;
+    }
+
+    .textMain{
+        display: none;
+    }
+
+    .textMain h4{
+        font-size: 18px;
     }
 }

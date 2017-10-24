@@ -84,9 +84,20 @@ th {
 // Bordered version
 //
 // Add borders all around the table and between all the columns.
+.aligncenter{
+  display: block;
+}
 
 .table-bordered {
   border: 1px solid @table-border-color;
+
+  >tbody,
+    >tr,
+      >td,
+        :nth-child(3){
+          max-height: 100px;
+  }
+
   > thead,
   > tbody,
   > tfoot {

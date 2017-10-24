@@ -1,4 +1,4 @@
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ app()->getLocale() }}" prefix="og: http://ogp.me/ns#">
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>
@@ -10,7 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ LAConfigs::getByKey('sitename') }}</title>
+    <title>@yield('pageTitle')</title>
     <meta name="description" content="{{ LAConfigs::getByKey('site_description') }}">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0">
@@ -18,6 +18,10 @@
     {{--
       <link type="text/css" rel="stylesheet" href="/css/css">
       --}}
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="http://autoservice39.ru/xmlrpc.php" />
+
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="/css/global.css" media="all">
     <link rel="stylesheet" href="/css/highdpi.css" media="all">
@@ -98,53 +102,16 @@
 <!-- .columns-container -->
     <div class="footer-container">
         <div id="footer">
-            <div class="remodal" data-remodal-id="modal">
-                <button data-remodal-action="close" class="remodal-close"></button>
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                    aria-hidden="true"></span></button>
-                        <h4 class="modal-title" id="myModalLabel">Запись на ремонт</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div id="repairs-form-result">
-                            <form action="/" method="post" id="my-repairs-form" accept-charset="UTF-8">
-                                <div>
-                                    <div class="phone-mail-row clearfix">
-                                        <div class="form-item form-item-name form-type-textfield form-group"><label
-                                                    class="control-label" for="edit-name--2">Ваше имя <span
-                                                        class="form-required"
-                                                        title="Это поле обязательно для заполнения.">*</span></label>
-                                            <input class="form-control form-text" required type="text" id="edit-name--2"
-                                                   name="name" value="" size="60" maxlength="128"></div>
-                                        <div class="form-item form-item-phone form-type-textfield form-group"><label
-                                                    class="control-label" for="edit-phone--2">Телефон <span
-                                                        class="form-required"
-                                                        title="Это поле обязательно для заполнения.">*</span></label>
-                                            <input placeholder="+7 (___) ___-__-__" class="form-control form-text "
-                                                   type="text" id="edit-phone--2" required name="phone" value="" size="60"
-                                                   maxlength="128"></div>
-                                    </div>
-                                    <div class="form-item form-item-comment form-type-textarea form-group"><label
-                                                class="control-label" for="edit-comment--2">Причина обращения, поломка,
-                                            вопрос <span class="form-required"
-                                                         title="Это поле обязательно для заполнения.">*</span></label>
-                                        <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                                            <textarea class="form-control form-textarea" required id="edit-comment--2"
-                                                      name="comment" cols="60" rows="5"></textarea>
-                                            <div class="grippie"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                   {{-- <div class="modal-success">
-                        <h1 class="modal-title" id="myModalLabel">Спасибо, мы свяжемся с Вами в ближайшее врямя.</h1>
-                    </div>--}}
-                </div>
-                <button data-remodal-action="cancel" class="remodal-cancel">Закрыть</button>
-                <button class="remodal-confirm">Отправить</button>
+            <div class="wrapper container">
+                © 2014, Автосервис и автостоянка "ГЕНЗАР"
+
+                г. Калининград, ул. Горького 223 в<br>
+
+                Телефоны: 8 (4012) 526-800; 50-90-61 (стоянка)<br>
+
+                Автосервис работает: с 9:00 до 19:00, суббота - с 9:00 до 16:00, воскресенье - выходной  <br>
+                Автостоянка работает: круглосуточно <br><br>
+               </div>
             </div>
         </div>
     </div>
@@ -153,6 +120,54 @@
             <a class="_blank" href="" target="_blank">  </a>
         </div>
     </div>--}}
+</div>
+<div class="remodal" data-remodal-id="modal">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true"></span></button>
+            <h4 class="modal-title" id="myModalLabel">Запись на ремонт</h4>
+        </div>
+        <div class="modal-body">
+            <div id="repairs-form-result">
+                <form action="/" method="post" id="my-repairs-form" accept-charset="UTF-8">
+                    <div>
+                        <div class="phone-mail-row clearfix">
+                            <div class="form-item form-item-name form-type-textfield form-group"><label
+                                        class="control-label" for="edit-name--2">Ваше имя <span
+                                            class="form-required"
+                                            title="Это поле обязательно для заполнения.">*</span></label>
+                                <input class="form-control form-text" required type="text" id="edit-name--2"
+                                       name="name" value="" size="60" maxlength="128"></div>
+                            <div class="form-item form-item-phone form-type-textfield form-group"><label
+                                        class="control-label" for="edit-phone--2">Телефон <span
+                                            class="form-required"
+                                            title="Это поле обязательно для заполнения.">*</span></label>
+                                <input placeholder="+7 (___) ___-__-__" class="form-control form-text "
+                                       type="text" id="edit-phone--2" required name="phone" value="" size="60"
+                                       maxlength="128"></div>
+                        </div>
+                        <div class="form-item form-item-comment form-type-textarea form-group"><label
+                                    class="control-label" for="edit-comment--2">Причина обращения, поломка,
+                                вопрос <span class="form-required"
+                                             title="Это поле обязательно для заполнения.">*</span></label>
+                            <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                                            <textarea class="form-control form-textarea" required id="edit-comment--2"
+                                                      name="comment" cols="60" rows="5"></textarea>
+                                <div class="grippie"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        {{-- <div class="modal-success">
+             <h1 class="modal-title" id="myModalLabel">Спасибо, мы свяжемся с Вами в ближайшее врямя.</h1>
+         </div>--}}
+    </div>
+    <button data-remodal-action="cancel" class="remodal-cancel">Закрыть</button>
+    <button class="remodal-confirm">Отправить</button>
 </div>
 <!-- #page -->
 <script>

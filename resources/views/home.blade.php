@@ -6,6 +6,7 @@
  */
 ?>
 @extends('layout.template')
+@section('pageTitle', 'Автосервис Калининград - Авторемонт на Горького, автосервисы Калининграда, ремонт подвески, замена масла')
 @section('content')
     @include('slider.main')
 
