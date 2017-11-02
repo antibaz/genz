@@ -81,6 +81,19 @@
 
 @push('styles')
 <link rel="stylesheet" type="text/css" href="{{ asset('la-assets/plugins/datatables/datatables.min.css') }}"/>
+	<style>
+		#example1 tbody tr {
+
+			overflow: hidden;
+		}
+		#example1 td:nth-child(3)
+		{
+			display: inline-block;
+			max-height: 50px;
+			width: 400px;
+			overflow: hidden;
+		}
+	</style>
 @endpush
 
 @push('scripts')

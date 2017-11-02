@@ -8,7 +8,9 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "dwij/laraadmin": "1.0.40",
-        "dwij/laeditor": "^0.1.6"
+        "dwij/laeditor": "^0.1.6",
+        "vinelab/laravel-editor": "^1.0",
+        "unisharp/laravel-ckeditor": "^4.6"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
