@@ -3,11 +3,19 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="43da66b9-8606-49ca-b6f0-3cc6820d7652" name="genzar (1)" url="http://193.106.248.99">
-        <fileTransfer host="http://193.106.248.99" port="21">
+        <fileTransfer host="vh90.timeweb.ru" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1aef28f9-ec1b-482b-ae04-3bf5418707b1" name="genzar-timeweb" url="http://92.53.96.158">
+        <fileTransfer host="92.53.96.158" port="22" rootFolder="/home/g/genzar" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
