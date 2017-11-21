@@ -24,7 +24,9 @@ require __DIR__.'/admin_routes.php';
 Route::get('/modal/', 'ModalController@index');
 
 /* ================== Articles Routes ================== */
+Route::get('/vk/message', "VkMessageController@index");
 Route::get('/{slug}/{slug2?}', 'ArticleController@index');
-Route::get('/новости/{slug2?}', 'NewsController@index');
+#Route::get('/новости/{slug2?}', 'NewsController@index');
 #Route::get('/test/', 'TestController@index');
+
 

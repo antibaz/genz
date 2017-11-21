@@ -92,14 +92,14 @@ class UploadsController extends Controller
         }
 
         // Validate if Image is Public
-        if(!$upload->public && !isset(Auth::user()->id)) {
+       /* if(!$upload->public && !isset(Auth::user()->id)) {
             return response()->json([
                 'status' => "failure",
                 'message' => "Unauthorized Access 2",
             ]);
-        }
+        }*/
 
-        if($upload->public || Entrust::hasRole('SUPER_ADMIN') || Auth::user()->id == $upload->user_id) {
+       /* if($upload->public || Entrust::hasRole('SUPER_ADMIN') || Auth::user()->id == $upload->user_id) {*/
             
             $path = $upload->path;
 
@@ -135,12 +135,12 @@ class UploadsController extends Controller
             }
             
             return $response;
-        } else {
+        /*} else {
             return response()->json([
                 'status' => "failure",
                 'message' => "Unauthorized Access 3"
             ]);
-        }
+        }*/
     }
 
     /**

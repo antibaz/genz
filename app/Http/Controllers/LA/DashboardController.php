@@ -33,6 +33,7 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('la.dashboard');
+        return redirect('/admin/modals');
+        //return view('la.dashboard');
     }
 }

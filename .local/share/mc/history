@@ -1,0 +1,25 @@
+[input-def]
+0=*
+
+[input2]
+0=/home/g/genzar/public_html/
+1=/home/g/genzar/
+2=/home/g/genzar/public_html
+
+[cmdline]
+0=git pull
+1=composer
+2=OC
+3=
+
+[Dir Hist New Right Panel]
+0=/home/g/genzar/public_html
+
+[Dir Hist New Left Panel]
+0=/home
+1=/home/g
+2=/home/g/genzar/public_html/genz/.git
+3=/home/g/genzar/public_html/genz
+4=/home/g/genzar/public_html/public
+5=/home/g/genzar/public_html
+6=/home/g/genzar
