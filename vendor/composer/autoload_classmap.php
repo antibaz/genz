@@ -33,6 +33,8 @@ return array(
     'App\\Http\\Controllers\\LA\\UsersController' => $baseDir . '/app/Http/Controllers/LA/UsersController.php',
     'App\\Http\\Controllers\\ModalController' => $baseDir . '/app/Http/Controllers/Genzar/ModalController.php',
     'App\\Http\\Controllers\\TestController' => $baseDir . '/app/Http/Controllers/Genzar/TestController.php',
+    'App\\Http\\Controllers\\VkMessage' => $baseDir . '/app/Http/Controllers/Genzar/VkMessageController.php',
+    'App\\Http\\Controllers\\VkMessageController' => $baseDir . '/app/Http/Controllers/Genzar/VkMessage.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
