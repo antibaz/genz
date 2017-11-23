@@ -62,5 +62,6 @@ $(function () {
 <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
 <script>
     CKEDITOR.replace( '.htmleditor' );
+    CKEDITOR.replace( 'htmlbox_text' );
 </script>
 @endpush
