@@ -18,13 +18,13 @@
 <script src="{{ asset('la-assets/plugins/slimScroll/jquery.slimscroll.min.js') }}" type="text/javascript"></script>
 
 <!-- TinyMCE -->
-<script src="{{ asset('la-assets/plugins/tinymce/js/tinymce/tinymce.min.js') }}" type="text/javascript"></script>
+{{--<script src="{{ asset('la-assets/plugins/tinymce/js/tinymce/tinymce.min.js') }}" type="text/javascript"></script>
 <script>
     tinymce.init({
         selector: '#htmlbox_text + input.form-control',
         inline: true
     });
-</script>
+</script>--}}
 
 
 
