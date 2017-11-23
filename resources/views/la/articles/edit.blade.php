@@ -65,7 +65,8 @@ $(function () {
     $('#htmlbox_text + input.form-control').ckeditor();
     /*CKEDITOR.replace( '#htmlbox_text + input.form-control' );*/
 </script>--}}
-<!-- TinyMCE -->
+
+
 <script src="{{ asset('la-assets/plugins/tinymce/js/tinymce/tinymce.min.js') }}" type="text/javascript"></script>
 <script>
     tinymce.init({
@@ -73,4 +74,5 @@ $(function () {
         inline: true
     });
 </script>
+
 @endpush
