@@ -61,6 +61,7 @@ $(function () {
 </script>
 <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
 <script>
-    CKEDITOR.replace( 'htmlbox_text' );
+    $('#htmlbox_text + input.form-control').ckeditor();
+    /*CKEDITOR.replace( '#htmlbox_text + input.form-control' );*/
 </script>
 @endpush
