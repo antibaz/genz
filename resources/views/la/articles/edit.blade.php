@@ -59,20 +59,8 @@ $(function () {
 	});
 });
 </script>
-{{--<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-<script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
+<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
 <script>
-    $('#htmlbox_text + input.form-control').ckeditor();
-    /*CKEDITOR.replace( '#htmlbox_text + input.form-control' );*/
-</script>--}}
-
-
-<script src="{{ asset('la-assets/plugins/tinymce/js/tinymce/tinymce.min.js') }}" type="text/javascript"></script>
-<script>
-    tinymce.init({
-        selector: '#htmlbox_text + input',
-        inline: true
-    });
+    CKEDITOR.replace( 'input.form-control' );
 </script>
-
 @endpush
