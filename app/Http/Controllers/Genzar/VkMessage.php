@@ -8,13 +8,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class VkMessageController extends Controller
 {
     public function index(Request $request)
     {
-        if (!isset($_REQUEST)) {
-            return;
+        if (!$request->get('type')) {
+            die('Bad params');
         }
 
 //Строка для подтверждения адреса сервера из настроек Callback API
@@ -27,7 +28,7 @@ class VkMessageController extends Controller
         $data = json_decode(file_get_contents('php://input'));
 
 //Проверяем, что находится в поле "type"
-        switch ($_POST['type']) {
+        switch ($request->get('type')) {
             //Если это уведомление для подтверждения адреса сервера...
             case 'confirmation':
                 //...отправляем строку для подтверждения адреса
@@ -44,7 +45,7 @@ class VkMessageController extends Controller
                  $user_name = $user_info->response[0]->first_name; */
 
                 $request_params = array(
-                    'message' => $_POST["text"],
+                    'message' => $request->get("text"),
                     'user_id' => $user_id,
                     'access_token' => $token,
                     'v' => '5.0'

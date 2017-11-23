@@ -1,0 +1,654 @@
+.top_menu {
+    padding: 34px 15px 0;
+    clear: both;
+    float: none;
+}
+
+@media (max-width: 767px) {
+    .top_menu {
+        padding: 25px 0 0;
+    }
+}
+
+.stickUpTop {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.stickUpTop.isStuck {
+    z-index: 5;
+}
+
+.stickUpHolder {
+    padding: 0;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+    .isStuck .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.top_menu > ul, .top_menu .stickUpHolder > ul {
+    padding: 0;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .top_menu > ul, .top_menu .stickUpHolder > ul {
+        padding-left: 10px;
+    }
+}
+
+.top_menu > ul > li, .top_menu .stickUpHolder > ul > li {
+    float: left;
+}
+
+.top_menu > ul > li > a, .top_menu .stickUpHolder > ul > li > a {
+    display: block;
+    color: black;
+    font: bold 18px/1.33em "Roboto Slab", sans-serif;
+    padding: 20px 15px;
+    height: 60px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .top_menu > ul > li > a, .top_menu .stickUpHolder > ul > li > a {
+        padding: 18px 20px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .top_menu > ul > li > a, .top_menu .stickUpHolder > ul > li > a {
+        padding: 18px 12px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+@media (min-width: 768px) {
+    .top_menu > ul > li > a.sf-with-ul:after, .top_menu .stickUpHolder > ul > li > a.sf-with-ul:after {
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 48%;
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-top: 9px solid #ffd630;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        z-index: 999;
+        opacity: 0;
+    }
+}
+
+.top_menu > ul > li:hover > a, .top_menu > ul > li.sfHover > a, .top_menu > ul > li.sfHoverForce > a, .top_menu > ul > li > a:hover, .top_menu .stickUpHolder > ul > li:hover > a, .top_menu .stickUpHolder > ul > li.sfHover > a, .top_menu .stickUpHolder > ul > li.sfHoverForce > a, .top_menu .stickUpHolder > ul > li > a:hover {
+    background: #ffd630;
+}
+
+.top_menu > ul > li:hover > a:after, .top_menu > ul > li.sfHover > a:after, .top_menu > ul > li.sfHoverForce > a:after, .top_menu > ul > li > a:hover:after, .top_menu .stickUpHolder > ul > li:hover > a:after, .top_menu .stickUpHolder > ul > li.sfHover > a:after, .top_menu .stickUpHolder > ul > li.sfHoverForce > a:after, .top_menu .stickUpHolder > ul > li > a:hover:after {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    bottom: -9px;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .top_menu > ul > li ul.is-simplemenu, .top_menu > ul > li ul.is-simplemenu ul, .top_menu .stickUpHolder > ul > li ul.is-simplemenu, .top_menu .stickUpHolder > ul > li ul.is-simplemenu ul {
+        display: none;
+        width: 200px;
+        top: -1px;
+        right: -200px;
+        position: absolute;
+        z-index: 99;
+        border: 1px solid #ccc;
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top_menu > ul > li ul.is-simplemenu, .top_menu > ul > li ul.is-simplemenu ul, .top_menu .stickUpHolder > ul > li ul.is-simplemenu, .top_menu .stickUpHolder > ul > li ul.is-simplemenu ul {
+        background: #fff;
+    }
+}
+
+.top_menu > ul > li > ul.is-simplemenu, .top_menu .stickUpHolder > ul > li > ul.is-simplemenu {
+    right: auto;
+    left: 0;
+    top: 59px;
+}
+
+@media only screen and (max-width: 767px) {
+    .top_menu > ul > li, .top_menu .stickUpHolder > ul > li {
+        width: 100%;
+        float: none;
+        position: relative;
+    }
+
+    .top_menu > ul > li > a, .top_menu .stickUpHolder > ul > li > a {
+        border-right: none;
+    }
+}
+
+.top_menu ul.menu, .top_menu .stickUpHolder ul.menu {
+    position: relative;
+    background: #F6F6F6;
+    background-image: -moz-linear-gradient(#ffffff, #f6f6f6, #d9d9d9);
+    background-image: -webkit-linear-gradient(#ffffff, #f6f6f6, #d9d9d9);
+    background-image: linear-gradient(#ffffff, #f6f6f6, #d9d9d9);
+    -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    margin: 0 0 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .top_menu ul.menu, .top_menu .stickUpHolder ul.menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .top_menu ul.menu, .top_menu .stickUpHolder ul.menu {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+.top_menu li a, .top_menu .stickUpHolder li a {
+    position: relative;
+}
+
+.top_menu li.simple, .top_menu li li, .top_menu .stickUpHolder li.simple, .top_menu .stickUpHolder li li {
+    position: relative;
+}
+
+.top_menu li li, .top_menu .stickUpHolder li li {
+    margin-bottom: 1px;
+}
+
+.top_menu li li a, .top_menu .stickUpHolder li li a {
+    display: inline-block;
+    padding: 5px 20px 6px;
+    font: 300 16px/22px "Roboto Slab", sans-serif;
+    color: #c64444;
+    display: inline-block;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+@media (max-width: 1199px) {
+    .top_menu li li a, .top_menu .stickUpHolder li li a {
+        padding: 5px 10px 6px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .top_menu li li a, .top_menu .stickUpHolder li li a {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
+
+.top_menu li li a:hover, .top_menu .stickUpHolder li li a:hover {
+    color: black;
+}
+
+.top_menu li li.sfHoverForce > a, .top_menu .stickUpHolder li li.sfHoverForce > a {
+    color: black;
+}
+
+.top_menu .menu_badge, .top_menu .stickUpHolder .menu_badge {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    z-index: 2;
+    font-size: 10px;
+    display: inline-block;
+    background: #f00;
+    color: #fff;
+    padding: 1px 5px 2px 5px;
+    line-height: 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .top_menu .menu_badge, .top_menu .stickUpHolder .menu_badge {
+        right: auto;
+        left: 5px;
+    }
+}
+
+.top_menu .is-megamenu, .top_menu .stickUpHolder .is-megamenu {
+    width: 100%;
+    padding: 0 15px;
+    background: white;
+    display: none;
+    text-align: left;
+    width: 1170px;
+    -moz-box-shadow: 0 5px 13px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 768px) {
+    .top_menu .is-megamenu, .top_menu .stickUpHolder .is-megamenu {
+        position: absolute;
+        left: 0;
+        top: 60px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .top_menu .is-megamenu, .top_menu .stickUpHolder .is-megamenu {
+        width: 940px;
+    }
+}
+
+@media (max-width: 991px) {
+    .top_menu .is-megamenu, .top_menu .stickUpHolder .is-megamenu {
+        width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top_menu .is-megamenu, .top_menu .stickUpHolder .is-megamenu {
+        width: 100%;
+    }
+}
+
+.top_menu .is-megamenu .megamenu-row, .top_menu .stickUpHolder .is-megamenu .megamenu-row {
+    padding: 28px 15px 35px;
+}
+
+@media (max-width: 767px) {
+    .top_menu .is-megamenu .megamenu-row, .top_menu .stickUpHolder .is-megamenu .megamenu-row {
+        padding: 25px 15px 25px;
+    }
+}
+
+.top_menu .is-megamenu .megamenu-row + .megamenu-row, .top_menu .stickUpHolder .is-megamenu .megamenu-row + .megamenu-row {
+    border-top: 1px solid #ccc;
+}
+
+.top_menu .is-megamenu .megamenu-row-2, .top_menu .stickUpHolder .is-megamenu .megamenu-row-2 {
+    background: #f8f8f8;
+}
+
+@media (max-width: 767px) {
+    .top_menu .is-megamenu ul.content, .top_menu .stickUpHolder .is-megamenu ul.content {
+        margin-bottom: 45px;
+    }
+}
+
+.top_menu .is-megamenu ul.content > li > a, .top_menu .stickUpHolder .is-megamenu ul.content > li > a {
+    font: bold 18px/1.33em "Roboto Slab", sans-serif;
+    color: black;
+    margin-bottom: 15px;
+    padding: 0;
+    padding: 0 20px 5px;
+    display: block;
+    background: none;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.top_menu .is-megamenu ul.content > li > a:before, .top_menu .stickUpHolder .is-megamenu ul.content > li > a:before {
+    display: none;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .top_menu .is-megamenu ul.content > li > a, .top_menu .stickUpHolder .is-megamenu ul.content > li > a {
+        text-transform: none;
+        font-weight: 400;
+        padding: 0 10px 8px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top_menu .is-megamenu ul.content > li > a, .top_menu .stickUpHolder .is-megamenu ul.content > li > a {
+        padding: 0 10px 10px;
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+}
+
+.top_menu .is-megamenu ul.content > li > a:hover, .top_menu .stickUpHolder .is-megamenu ul.content > li > a:hover {
+    color: #c64444;
+}
+
+.top_menu .is-megamenu ul.content > li.sfHoverForce > a, .top_menu .stickUpHolder .is-megamenu ul.content > li.sfHoverForce > a {
+    color: #c64444;
+}
+
+.top_menu .is-megamenu ul.content ul, .top_menu .stickUpHolder .is-megamenu ul.content ul {
+    opacity: 1 !important;
+    display: block !important;
+}
+
+.top_menu .menu-title, .top_menu .stickUpHolder .menu-title {
+    position: relative;
+    background: #F6F6F6;
+    background-image: -moz-linear-gradient(#ffffff, #f6f6f6, #d9d9d9);
+    background-image: -webkit-linear-gradient(#ffffff, #f6f6f6, #d9d9d9);
+    background-image: linear-gradient(#ffffff, #f6f6f6, #d9d9d9);
+    padding: 16px 30px 15px;
+    font: 700 19px/1.19em "Roboto Slab", sans-serif;
+    color: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+    .top_menu .menu-title, .top_menu .stickUpHolder .menu-title {
+        clear: both;
+    }
+}
+
+.top_menu .menu-title:hover, .top_menu .stickUpHolder .menu-title:hover {
+    background: #e4e4e4;
+}
+
+.top_menu .menu-title:after, .top_menu .stickUpHolder .menu-title:after {
+    position: absolute;
+    content: "\f067";
+    font-family: 'FontAwesome';
+    height: 30px;
+    width: 30px;
+    font-size: 26px;
+    top: 17px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.top_menu .menu-title.active:after, .top_menu .stickUpHolder .menu-title.active:after {
+    content: "\f068";
+}
+
+@media only screen and (min-width: 768px) {
+    .top_menu .menu-title, .top_menu .stickUpHolder .menu-title {
+        display: none;
+    }
+}
+
+.top_menu .menu-mobile-grover:before, .top_menu .stickUpHolder .menu-mobile-grover:before {
+    position: absolute;
+    content: "\f067";
+    font-family: 'FontAwesome';
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+    top: 18px;
+    right: 20px;
+    color: #000;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .top_menu .menu-mobile-grover:before, .top_menu .stickUpHolder .menu-mobile-grover:before {
+        display: none;
+    }
+}
+
+.top_menu .menu-mobile-grover.active:before, .top_menu .stickUpHolder .menu-mobile-grover.active:before {
+    content: "\f068";
+}
+
+@media only screen and (max-width: 767px) {
+    .top_menu .is-simplemenu li, .top_menu .stickUpHolder .is-simplemenu li {
+        border-top: 1px solid #ccc;
+    }
+
+    .top_menu .is-simplemenu li .menu-mobile-grover:before, .top_menu .stickUpHolder .is-simplemenu li .menu-mobile-grover:before {
+        top: 8px;
+        right: 0;
+        font-size: 18px;
+    }
+
+    .top_menu .is-simplemenu li a, .top_menu .stickUpHolder .is-simplemenu li a {
+        display: block;
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .top_menu .is-simplemenu li li a, .top_menu .stickUpHolder .is-simplemenu li li a {
+        padding-left: 20px;
+    }
+
+    .top_menu .is-simplemenu li li li a, .top_menu .stickUpHolder .is-simplemenu li li li a {
+        padding-left: 30px;
+    }
+
+    .top_menu .is-simplemenu li li li li a, .top_menu .stickUpHolder .is-simplemenu li li li li a {
+        padding-left: 40px;
+    }
+
+    .top_menu li.simple ul, .top_menu .stickUpHolder li.simple ul {
+        display: none;
+    }
+
+    .top_menu .megamenu-col.col-sm-3, .top_menu .stickUpHolder .megamenu-col.col-sm-3 {
+        float: left;
+        width: 50%;
+    }
+
+    .top_menu .megamenu-col.col-sm-3.first-in-line-sm, .top_menu .stickUpHolder .megamenu-col.col-sm-3.first-in-line-sm {
+        clear: left;
+    }
+}
+
+@media (max-width: 479px) {
+    .top_menu .megamenu-col.col-sm-3, .top_menu .stickUpHolder .megamenu-col.col-sm-3 {
+        width: 100%;
+    }
+}
+
+#index .top_menu ul.menu, #index .top_menu .stickUpHolder ul.menu {
+    margin: 0;
+}
+
+.red {
+    background: #f00;
+}
+
+.menuvideowrapper {
+    clear: both;
+    float: none;
+    height: 0;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.menuvideowrapper iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.frontend-map {
+    min-height: 200px;
+}
+
+.left_column_menu .block_content li, .right_column_menu .block_content li {
+    position: relative;
+}
+
+.left_column_menu .block_content li.simple ul, .right_column_menu .block_content li.simple ul {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .left_column_menu .block_content li.simple ul, .right_column_menu .block_content li.simple ul {
+        position: absolute;
+        top: -1px;
+        width: 200px;
+        border: 1px solid #ccc;
+        background: #fff;
+        z-index: 999;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .left_column_menu .block_content li.simple ul li, .right_column_menu .block_content li.simple ul li {
+        border-top: 1px solid #ccc;
+        position: relative;
+    }
+
+    .left_column_menu .block_content li.simple ul li a, .right_column_menu .block_content li.simple ul li a {
+        display: block;
+        padding: 10px 0 10px 15px;
+        position: relative;
+    }
+
+    .left_column_menu .block_content li.simple ul li li a, .right_column_menu .block_content li.simple ul li li a {
+        padding-left: 25px;
+    }
+}
+
+.left_column_menu .block_content > ul > li, .right_column_menu .block_content > ul > li {
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+
+.left_column_menu .block_content > ul > li > a, .right_column_menu .block_content > ul > li > a {
+    display: block;
+    padding: 10px 0;
+    position: relative;
+}
+
+.left_column_menu .block_content > ul > li:first-child, .right_column_menu .block_content > ul > li:first-child {
+    border: none;
+}
+
+.left_column_menu .block_content span.menu_badge, .right_column_menu .block_content span.menu_badge {
+    font-size: 10px;
+    display: inline-block;
+    background: #f00;
+    color: #fff;
+    padding: 1px 5px 2px 5px;
+    line-height: 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.left_column_menu .block_content li.simple li a, .right_column_menu .block_content li.simple li a {
+    padding: 4px 5px;
+    display: block;
+}
+
+.left_column_menu .block_content div.is-megamenu, .right_column_menu .block_content div.is-megamenu {
+    display: none;
+}
+
+.left_column_menu .block_content div.is-megamenu ul, .right_column_menu .block_content div.is-megamenu ul {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.left_column_menu .block_content div.is-megamenu ul.content > li > a, .right_column_menu .block_content div.is-megamenu ul.content > li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.left_column_menu .block_content div.is-megamenu ul.content > li li, .right_column_menu .block_content div.is-megamenu ul.content > li li {
+    padding-left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .left_column_menu .block_content div.is-megamenu, .right_column_menu .block_content div.is-megamenu {
+        position: absolute;
+        top: 0;
+        width: 600px;
+        padding: 15px;
+        background: #fff;
+        border: 1px solid #ccc;
+        z-index: 999;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .left_column_menu .block_content div.is-megamenu .megamenu-col.col-sm-3, .right_column_menu .block_content div.is-megamenu .megamenu-col.col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+
+    .left_column_menu .block_content div.is-megamenu .megamenu-col.col-sm-3.first-in-line-sm, .right_column_menu .block_content div.is-megamenu .megamenu-col.col-sm-3.first-in-line-sm {
+        clear: left;
+    }
+}
+
+.left_column_menu .block_content .menu-mobile-grover:after, .right_column_menu .block_content .menu-mobile-grover:after {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    font-size: 15px;
+    content: "\f067";
+    font-family: 'FontAwesome';
+    z-index: 1;
+    cursor: pointer;
+}
+
+.left_column_menu .block_content .menu-mobile-grover.active:after, .right_column_menu .block_content .menu-mobile-grover.active:after {
+    content: "\f068";
+}
+
+.left_column_menu li.simple ul {
+    right: -200px;
+}
+
+.right_column_menu li.simple ul {
+    left: -200px;
+}
+
+.left_column_menu div.is-megamenu {
+    right: -600px;
+}
+
+.right_column_menu div.is-megamenu {
+    left: -600px;
+}

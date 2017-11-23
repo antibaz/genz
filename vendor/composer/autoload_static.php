@@ -406,7 +406,6 @@ class ComposerStaticInit6801c8e101950bb60c6783c2067fc811
         'App\\Http\\Controllers\\LA\\UsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/LA/UsersController.php',
         'App\\Http\\Controllers\\ModalController' => __DIR__ . '/../..' . '/app/Http/Controllers/Genzar/ModalController.php',
         'App\\Http\\Controllers\\TestController' => __DIR__ . '/../..' . '/app/Http/Controllers/Genzar/TestController.php',
-        'App\\Http\\Controllers\\VkMessage' => __DIR__ . '/../..' . '/app/Http/Controllers/Genzar/VkMessageController.php',
         'App\\Http\\Controllers\\VkMessageController' => __DIR__ . '/../..' . '/app/Http/Controllers/Genzar/VkMessage.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',

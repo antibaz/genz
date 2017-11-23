@@ -17,6 +17,14 @@
 <script src="{{ asset('la-assets/plugins/stickytabs/jquery.stickytabs.js') }}" type="text/javascript"></script>
 <script src="{{ asset('la-assets/plugins/slimScroll/jquery.slimscroll.min.js') }}" type="text/javascript"></script>
 
+<!-- TinyMCE -->
+<script src="{{ asset('la-assets/plugins/tinymce/js/tinymce/tinymce.min.js') }}" type="text/javascript"></script>
+<script>
+    tinymce.init({
+        selector: 'form[id $= "-add-form"] textarea, form[id $= "-edit-form"] textarea'
+    });
+</script>
+
 
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
