@@ -13160,3 +13160,8 @@ ul.content{
         font-size: 18px;
     }
 }
+
+#htmlbox_text img
+{
+    max-width: 300px;
+}
