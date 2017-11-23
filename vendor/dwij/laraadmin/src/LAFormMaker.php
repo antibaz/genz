@@ -317,7 +317,7 @@ class LAFormMaker
 					// ############### Remaining
 					$out .= '<div class="htmlbox" style="display:none" id="htmlbox_'.$field_name.'" contenteditable>'.$default_val.'</div>';
                     $params['id'] = 'htmleditor';
-					$out .= Form::hidden($field_name, $default_val, $params);
+					$out .= Form::textarea($field_name, $default_val, $params);
 					break;
 				case 'Image':
 					$out .= '<label for="'.$field_name.'" style="display:block;">'.$label.$required_ast.' :</label>';
