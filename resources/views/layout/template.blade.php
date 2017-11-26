@@ -23,7 +23,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/global.css" media="all">
+    <link rel="stylesheet" href="/css/global.css?v=2" media="all">
     <link rel="stylesheet" href="/css/highdpi.css" media="all">
     <link rel="stylesheet" href="/css/responsive-tables.css" media="all">
     <link rel="stylesheet" href="/css/uniform.default.css" media="all">
