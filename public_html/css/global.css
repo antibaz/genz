@@ -13161,7 +13161,10 @@ ul.content{
     }
 }
 
-#vk_groups
+.vk-link
 {
-    margin: 0 auto;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: (/img/vk.svg) no-repeat 50% 50%;
 }

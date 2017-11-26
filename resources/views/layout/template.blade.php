@@ -117,10 +117,13 @@
                 <div class="col-lg-2 col-md-4" style="text-align: right"><script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
 
                     <!-- VK Widget -->
-                    <div id="vk_groups"></div>
+                    <a href="https://vk.com/autoservice39" class="vk-link">
+
+                    </a>
+                   {{-- <div id="vk_groups" style="margin: 0 auto"></div>
                     <script type="text/javascript">
                         VK.Widgets.Group("vk_groups", {mode: 3}, 20003922);
-                    </script>
+                    </script>--}}
                 </div>
                </div>
 
