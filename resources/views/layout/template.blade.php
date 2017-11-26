@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="/css/jquery.bxslider.min.css" media="all">
     <link rel="stylesheet" href="/css/remodal.css" media="all">
     <link rel="stylesheet" href="/css/remodal-default-theme.css" media="all">
+    <link rel="stylesheet" href="/css/bootstrap.css" media="all">
     {{--<link rel="stylesheet" href="/css/fakeLoader.css" media="all">--}}
 
     {{--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>--}}
@@ -103,6 +104,7 @@
     <div class="footer-container">
         <div id="footer">
             <div class="wrapper container">
+                <div class="col-lg-10 col-md-8">
                 © 2014, Автосервис и автостоянка "ГЕНЗАР"
 
                 г. Калининград, ул. Горького 223 в<br>
@@ -110,8 +112,18 @@
                 Телефоны: 8 (4012) 526-800; 50-90-61 (стоянка)<br>
 
                 Автосервис работает: с 9:00 до 19:00, суббота - с 9:00 до 16:00, воскресенье - выходной  <br>
-                Автостоянка работает: круглосуточно <br><br>
+                Автостоянка работает: круглосуточно
+                </div>
+                <div class="col-lg-2 col-md-4" style="text-align: right"><script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
+
+                    <!-- VK Widget -->
+                    <div id="vk_groups"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Group("vk_groups", {mode: 3}, 20003922);
+                    </script>
+                </div>
                </div>
+
             </div>
         </div>
     </div>

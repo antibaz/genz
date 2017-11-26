@@ -74,3 +74,95 @@ composer update
 mc
 #1511290196
 git status
+#1511293242
+composer update
+#1511293553
+php restart
+#1511293570
+/etc/init.d/php5 restart
+#1511293582
+yum
+#1511293607
+service apache2 restart
+#1511293614
+sudo service apache2 restart
+#1511293700
+service php7 restart
+#1511293717
+composer.phar reload
+#1511293721
+composer.phar --help
+#1511293731
+composer.phar --h
+#1511293737
+composer.phar -help
+#1511293741
+composer --help
+#1511293813
+php artisan optimize
+#1511293854
+php artisan optimize
+#1511294768
+git add .
+#1511294784
+git commit -m 'hosting'
+#1511294793
+git config --global user.email "you@example.com"
+#1511294803
+git config --global user.email "antibaz@list.ru"
+#1511294806
+git commit -m 'hosting'
+#1511294818
+git config --global user.name "antibaz"
+#1511294820
+git commit -m 'hosting'
+#1511294826
+git branch
+#1511294832
+git push
+#1511388223
+git pull
+#1511471492
+git pull
+#1511472224
+git pull
+#1511472577
+git pull
+#1511472610
+git pull
+#1511472615
+git status
+#1511472680
+git pull
+#1511472802
+git pull
+#1511472804
+git pull
+#1511473957
+git pull
+#1511473966
+git reset --hard
+#1511473973
+git status
+#1511473977
+git reset --hard
+#1511473979
+git pull
+#1511475254
+git pull
+#1511475304
+git pull
+#1511475361
+git pull
+#1511475401
+git pull
+#1511475472
+git pull
+#1511475650
+git pull
+#1511475682
+git pull
+#1511475746
+git pull
+#1511475885
+git pull
