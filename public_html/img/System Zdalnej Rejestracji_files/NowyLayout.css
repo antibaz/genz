@@ -1,0 +1,410 @@
+﻿
+BODY {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+
+ekonsulat_btn
+{
+    border: 1px solid #CCCCCC;
+    background-color: #e7e7e7;
+    color: #cf0f12;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 10px;
+}
+
+
+body 
+{
+    background-color: White;
+}
+
+.EKONSULAT_MASTER 
+{
+    font-family: Verdana;
+    font-size: 20px;
+    color: White;
+    text-decoration: none;  
+}
+
+.TABELA_MENU
+{
+    background-position: center top;
+    background-image: url('Tlo_MASTER_R.gif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ETYKIETA_BIALA
+{
+    
+    font-family: Verdana;
+    font-size: 11px;
+    color: White;
+}
+
+.ETYKIETA_SZARA
+{
+    
+    font-family: Verdana;
+    font-size: 11px;
+    color: Gray
+}
+
+.HL_SZARY 
+{
+    color: Gray;    
+    font-family: Verdana;
+    font-size: 11px;
+    text-decoration: none;
+    
+}
+
+.HL_BIALY 
+{
+    color: White;    
+    font-family: Verdana;
+    font-size: 11px;
+    text-decoration: none;  
+}
+
+.POZYCJA_MENU 
+{
+    color: White;    
+    font-family: Verdana;
+    font-size: 13px;
+    text-decoration: none;  
+}
+
+.PODPOZYCJA_MENU 
+{
+    color: White;    
+    font-family: Verdana;
+    font-size: 11px;
+    text-decoration: none;  
+}
+
+.TRESC_FORMULARZA 
+{
+    color: #222222;
+    font-family: Verdana;
+    font-size: 11px;
+
+}
+
+/*
+kompatybilność wstecz
+*/
+
+BODY 
+{
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+TD 
+{
+    text-align: left;
+}
+.wiersz_tytulowy_wniosek
+{
+    margin-top: 50px;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: #d1281b;
+    border-top: 3px solid Black;
+    border-left: #C1C1C1 2px solid;
+    color: White;
+    padding-left: 10px;
+}
+
+.lewa_ramka
+{
+    border-left: silver 2px solid;
+    padding-left: 10px;
+}
+
+.ramka_dol_wniosek
+{
+    border-bottom: silver 2px solid;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.odstep_na_gorze
+{
+    padding-top: 5px;
+}
+
+.ramka_dol_wniosek_bez_marginesu_na_dole
+{
+    border-bottom: silver 2px solid;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+
+.ramka_lewa_wniosek
+{
+    border-left: silver 2px solid;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+.FRM_WIERSZ_ODSTEP 
+{
+    height: 40px;
+}
+
+.FRM_KOM_ODSTEP 
+{
+    
+}
+
+
+.EtykietaNieDotyczyReadOnly
+{
+    display: none;
+}
+
+.KontrolkaNieDotyczyKolorTla 
+{
+    background-color: #d7d7d7;
+}
+
+.NieDotyczy_KolorTla3
+{
+    background-color: #D4D4D4;
+}
+
+TEXTAREA 
+{
+    font-family: Tahoma;
+}
+
+TD 
+{
+    text-align: left;
+}
+
+.PrzesuniecieLewe 
+{
+    padding-left: 30px;
+}
+
+.FormularzTabelkaNaglowek 
+{
+    text-align: center;
+}
+
+.EtykietaNieDotyczy
+{
+}
+
+.EtykietaNieDotyczyReadOnly
+{
+    display: none;
+}
+
+.KontrolkaNieDotyczyKolorTla 
+{
+    background-color: #d7d7d7;
+}
+
+.FormularzTabelkaKomorka
+{
+    text-align: center;
+}
+
+.FormularzTabelkaNaglowekKolor
+{
+    color: Black;
+}
+
+.FormularzTabelkaNaglowekTlo 
+{
+   
+}
+
+.FormularzEtykietaWewnetrznaKolumna
+{
+    text-align: right;
+    padding-right: 5px;
+}
+
+
+.chkreadonly 
+{
+    visibility: hidden;
+}
+
+.readonly 
+{
+    border: 0px solid black;
+}
+
+.ekonsulat_btn
+{
+    border: 1px solid #CCCCCC;
+    background-color: #e7e7e7;
+    color: #cf0f12;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 10px;
+}
+
+.NieDotyczy_KolorTla1 
+{
+    background-color:#ececec;
+}
+
+.NieDotyczy_KolorTla2
+{
+    background-color:#ececec;
+}
+
+.NieDotyczy_KolorTla3
+{
+    background-color:#a0a0a0;
+}
+
+.NieDotyczyBlok_Etykieta
+{
+    text-align: right;
+}
+
+.NieDotyczyBlok_EtykietaLewa
+{
+    text-align: left;
+}
+
+A {
+	COLOR: #292929; TEXT-DECORATION: none
+}
+
+.DoPobraniaNaglowek 
+{
+	text-align: left;
+	margin-left: 20px;
+	font-family: Verdana;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+.DoPobraniaTabela * A:hover
+{
+	font-family: Verdana;
+	color: Gray;
+}
+
+.DoPobraniaTabela * A
+{
+	font-family: Verdana;
+	color: Gray;
+}
+
+.GLOWNA_NavBar 
+{
+    color: White;
+}
+
+.SPLASH
+{
+    background-color: rgb(255, 255, 255); /* RGBa with 0.6 opacity */
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.KolorWyloguj
+{
+	color: #CC3300;
+}
+
+.TDMENUODSTEP 
+{
+    padding-top: 3px;
+}
+
+.error 
+{
+    color: Red;
+}
+
+.containerSekcji
+{
+    float:left;
+    width: 684px;
+    padding-left: 7px;
+    padding-right: 12px;
+}
+
+.naglowekSekcji
+{
+    float: left;
+    width: 100%;
+    background-color: #d1281b;
+    border-top: 3px solid black;
+    border-left: 2px solid silver;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    font-family: Verdana;
+    font-size: 15px;
+    color: White;
+    margin-right:20px;
+}
+.pole
+{
+    float: left;
+    border-left: 2px solid silver;
+    border-bottom: 2px solid silver;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pole_lewe
+{
+    position:relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.pole_prawe
+{
+    border-left: 2px solid silver;
+    padding-left: 10px;
+    position:relative;
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+td.style1
+{
+    width: 204px;
+}
+
+span.readOnlyElement
+{
+    padding-top: 2px;
+    padding-left: 2px;
+    display:inline-block;
+    overflow:hidden;
+    vertical-align: middle;
+}
+
+span.readOnlyCheck
+{
+    width: 15px;
+    height: 14px;
+    padding-left: 2px;
+    display:inline-block;
+    overflow:hidden;
+    vertical-align: middle;
+}

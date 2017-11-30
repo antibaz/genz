@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f6b427-9433-4b54-be7d-85ef1147bddb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/genzar.iml" afterPath="$PROJECT_DIR$/.idea/genzar.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Genzar/CommentsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/css/responsive-tables.css" afterPath="$PROJECT_DIR$/public_html/css/responsive-tables.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,65 +24,26 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="genzar@localhost" type="e3449647:DbNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/TestController.php">
+    <leaf>
+      <file leaf-file-name="index.blade.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/comments/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
-              <folding>
-                <element signature="e#101#126#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LAFormMaker.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/dwij/laraadmin/src/LAFormMaker.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5355">
-              <caret line="318" column="49" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="49" />
-              <folding>
-                <marker date="1511698196568" expanded="true" signature="3342:3378" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout/template.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="178" column="66" lean-forward="false" selection-start-line="178" selection-start-column="66" selection-end-line="178" selection-end-column="66" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.blade.php" pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/layout/template.blade.php">
+      <file leaf-file-name="CommentsController.php" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/Controllers/Genzar/CommentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModalController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/ModalController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+            <state relative-caret-position="102">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,26 +72,22 @@
       <find>display</find>
       <find>htmlbox</find>
       <find>genzar_db</find>
+      <find>col-lg-8</find>
+      <find>col-m</find>
+      <find>ackground-image:</find>
+      <find>@endsection</find>
+      <find>ArticleController</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/menus/top.menu.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/news/detail.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/blockcontact.css" />
-        <option value="$PROJECT_DIR$/app/Models/MenuMain.php" />
-        <option value="$PROJECT_DIR$/resources/views/slider/slider.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Genzar/News.php" />
-        <option value="$PROJECT_DIR$/public/css/jquery.bxslider.css" />
-        <option value="$PROJECT_DIR$/resources/views/menus/top_menu.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/fakeLoader.min.js" />
-        <option value="$PROJECT_DIR$/public/css/tmmegamenu.css" />
-        <option value="$PROJECT_DIR$/public/css/jquery.bxslider.min.css" />
         <option value="$PROJECT_DIR$/resources/views/la/uploads/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LA/UploadsController.php" />
         <option value="$PROJECT_DIR$/public/css/responsive.min.css" />
@@ -163,15 +118,27 @@
         <option value="$PROJECT_DIR$/resources/views/la/articles/edit.blade.php" />
         <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/la/articles/edit.blade.php" />
         <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/la/layouts/partials/scripts.blade.php" />
-        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/public_html/css/global.css" />
         <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/assets/less/admin-lte/forms.less" />
         <option value="$PROJECT_DIR$/resources/assets/less/admin-lte/forms.less" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/vendor/dwij/laraadmin/src/LAFormMaker.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/template.blade.php" />
-        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/layout/template.blade.php" />
         <option value="$PROJECT_DIR$/public_html/css/responsive-tables.css" />
         <option value="$PROJECT_DIR$/public_html/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/public_html/css/global.css" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/public_html/css/global.css" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/layout/template.blade.php" />
+        <option value="&lt;7c30ef69-2287-4bdd-a334-a361aeefbb43&gt;/www/bitrix/templates/aredi-new/header.php" />
+        <option value="&lt;7c30ef69-2287-4bdd-a334-a361aeefbb43&gt;/www/услуги/index.php" />
+        <option value="&lt;7c30ef69-2287-4bdd-a334-a361aeefbb43&gt;/www/о-нас/контакты/index.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/Controllers/Genzar/TestController.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/Controllers/Genzar/ModalController.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/Controllers/Genzar/VkMessage.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Genzar/CommentsController.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/resources/views/comments/index.blade.php" />
+        <option value="&lt;1aef28f9-ec1b-482b-ae04-3bf5418707b1&gt;/app/Http/Controllers/Genzar/CommentsController.php" />
       </list>
     </option>
   </component>
@@ -292,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,12 +270,6 @@
               <item name="genz" type="b2602c69:ProjectViewProjectNode" />
               <item name="genz" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public_html" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="genz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="genz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public_html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="genz" type="b2602c69:ProjectViewProjectNode" />
@@ -333,6 +293,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -432,38 +393,42 @@
       <workItem from="1511469493968" duration="5631000" />
       <workItem from="1511700378557" duration="963000" />
       <workItem from="1511702837561" duration="132000" />
-      <workItem from="1511703184998" duration="1758000" />
+      <workItem from="1511703184998" duration="7720000" />
+      <workItem from="1511766506263" duration="18000" />
+      <workItem from="1511788101386" duration="2537000" />
+      <workItem from="1511819357307" duration="1329000" />
+      <workItem from="1512069373790" duration="2066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117638000" />
+    <option name="totallyTimeSpent" value="129550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="27" width="1317" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22551253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19058466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="117" y="119" width="236" height="264" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33592534" sideWeight="0.5059195" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24544735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344426" sideWeight="0.5059195" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51384085" sideWeight="0.4940805" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22423288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19590874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="117" y="119" width="236" height="264" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24468923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41597337" sideWeight="0.4940805" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -480,21 +445,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/news/detail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/20c34048/10d3cc0f-1a18-473d-a981-232a0e8f5dd4/genzar.articles" />
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="127" lean-forward="false" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/articles/detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -541,13 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="92" column="20" lean-forward="false" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -683,17 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="438" column="35" lean-forward="false" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="e#101#126#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,44 +702,74 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6784e839-16a0-4975-97cd-fd04a924ac32/console.sql" />
     <entry file="file://$PROJECT_DIR$/.env" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/ModalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dwij/laraadmin/src/LAFormMaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5355">
-          <caret line="318" column="49" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="49" />
-          <folding>
-            <marker date="1511698196568" expanded="true" signature="3342:3378" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="178" column="66" lean-forward="false" selection-start-line="178" selection-start-column="66" selection-end-line="178" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/css/responsive-tables.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-701">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/ModalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="65316" lean-forward="false" selection-start-line="4" selection-start-column="65316" selection-end-line="4" selection-end-column="65316" />
+        <state relative-caret-position="89">
+          <caret line="1860" column="141" lean-forward="false" selection-start-line="1860" selection-start-column="136" selection-end-line="1860" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="178" column="66" lean-forward="false" selection-start-line="178" selection-start-column="66" selection-end-line="178" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dwij/laraadmin/src/LAFormMaker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="318" column="49" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="13158" column="17" lean-forward="true" selection-start-line="13158" selection-start-column="17" selection-end-line="13158" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Genzar/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
