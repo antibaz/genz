@@ -13169,3 +13169,11 @@ ul.content{
     background-size: contain;
     background-image: url('/img/vk.png');
 }
+.comments{
+    margin: 0 30px;
+}
+
+.container-comments{
+    margin: 0 auto;
+    float: none !important;
+}

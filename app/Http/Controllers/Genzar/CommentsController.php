@@ -8,16 +8,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Comments;
+use App\Models\Comment;
 
 class CommentsController extends Controller
 {
     public function index()
     {
-        $issetComments = Comments::all();
+        $issetComments = Comment::all();
 
         if ($issetComments) {
-            return view('comments.index',$issetComments);
+            return view('comments.index');
         } else {
             abort(404);
         }
