@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6f6b427-9433-4b54-be7d-85ef1147bddb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Genzar/CommentsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f6f6b427-9433-4b54-be7d-85ef1147bddb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,11 +266,6 @@
             <path>
               <item name="genz" type="b2602c69:ProjectViewProjectNode" />
               <item name="genz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public_html" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="genz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="genz" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -397,12 +389,12 @@
       <workItem from="1511766506263" duration="18000" />
       <workItem from="1511788101386" duration="2537000" />
       <workItem from="1511819357307" duration="1329000" />
-      <workItem from="1512069373790" duration="2066000" />
+      <workItem from="1512069373790" duration="2090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129550000" />
+    <option name="totallyTimeSpent" value="129574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="27" width="1317" height="741" extended-state="6" />
