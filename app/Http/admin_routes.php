@@ -92,4 +92,9 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== Modals ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/modals', 'LA\ModalsController');
 	Route::get(config('laraadmin.adminRoute') . '/modal_dt_ajax', 'LA\ModalsController@dtajax');
+
+
+	/* ================== Comments ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/comments', 'LA\CommentsController');
+	Route::get(config('laraadmin.adminRoute') . '/comment_dt_ajax', 'LA\CommentsController@dtajax');
 });

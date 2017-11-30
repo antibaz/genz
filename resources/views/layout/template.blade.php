@@ -23,7 +23,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/global.css?v=2" media="all">
+    <link rel="stylesheet" href="/css/global.css?v=5" media="all">
     <link rel="stylesheet" href="/css/highdpi.css" media="all">
     <link rel="stylesheet" href="/css/responsive-tables.css" media="all">
     <link rel="stylesheet" href="/css/uniform.default.css" media="all">
@@ -47,7 +47,7 @@
     <link rel="stylesheet" href="/css/jquery.bxslider.min.css" media="all">
     <link rel="stylesheet" href="/css/remodal.css" media="all">
     <link rel="stylesheet" href="/css/remodal-default-theme.css" media="all">
-    <link rel="stylesheet" href="/css/bootstrap.css" media="all">
+    {{--<link rel="stylesheet" href="/css/bootstrap.css" media="all">--}}
     {{--<link rel="stylesheet" href="/css/fakeLoader.css" media="all">--}}
 
     {{--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>--}}
@@ -117,7 +117,8 @@
                 <div class="col-lg-2 col-md-4" style="text-align: right"><script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
 
                     <!-- VK Widget -->
-                    <a href="https://vk.com/autoservice39" class="vk-link">
+                    <strong style="display: block">Мы в соц. сетях: </strong>
+                    <a href="https://vk.com/autoservice39" target="_blank" class="vk-link">
 
                     </a>
                    {{-- <div id="vk_groups" style="margin: 0 auto"></div>

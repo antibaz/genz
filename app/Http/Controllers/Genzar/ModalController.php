@@ -9,6 +9,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Modal;
 use Dotenv\Dotenv;
+use Validator;
 use Illuminate\Http\Request;
 
 class ModalController extends Controller
@@ -27,7 +28,10 @@ class ModalController extends Controller
         }
 
         $postVK = ["type" => "message_reply"];
-        $postVK['text'] = "Создан заказ и передан в FastBox под номером";
+        $postVK['text'] = "Создана новая заявка на сайте: \r\n ";
+        $postVK['text'] .= "Имя: " .$request->all()['name']. "\r\n ";
+        $postVK['text'] .= "Телефон: " .$request->all()['phone']. "\r\n ";
+        $postVK['text'] .= "Комментарий: " .$request->all()['comment']. "\r\n ";
 
         $modal = new Modal();
         try
@@ -36,7 +40,6 @@ class ModalController extends Controller
             $modal->save();
 
             $return_vk = self::curl_expert(config('app.url') . "/vk/message", array(), $postVK);
-            dump($return_vk);
 
         }
         catch (\Exception $exception)
@@ -60,10 +63,14 @@ class ModalController extends Controller
         $Url = $url.$str;
 
         $ch = curl_init ($Url);
-        curl_setopt ($ch, CURLOPT_COOKIEFILE, $ckfile);
+        //curl_setopt ($ch, CURLOPT_COOKIEFILE, $ckfile);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
         curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt ($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        /*curl_setopt ($ch, CURLOPT_POST, true);*/
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Content-Type: application/json'
+        ));
 
         $output = curl_exec ($ch);
         return $output;
